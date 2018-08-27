@@ -2,6 +2,12 @@
 ## Folder sctructure
 * no_env_vars/ : captain-definition and Dockerfile without env var, so, you need configure them manually in the web interface.
 
+## App creation
+You *don't* need check the option `Has Persistent Data` when you will create the new app for the Wekan.
+
+## Requisites
+* a mongo db server running, the Wekan need that to work.
+
 ## Environment variables
 For more detail, read the Dockerfile.
 
