@@ -1,18 +1,14 @@
-# Gogs on captain
+# Python Flask on captain (http://flask.pocoo.org/)
+Run a simple python 3 flask app inside the captain.
 
 ## App creation
-You need check the option `Has Persistent Data` when you will create the new app for the Gogs.
+You `don´t` need check the option `Has Persistent Data` when you will create the new app for the Flask. If you need database access, create another app to run the database and made this application point to this address.
 
 ## Environment variables
-None
+None.
 
 ## Volume mapping
-All that volumes need be configurated in the Captatain Duck Duck web interface. The following volume mapping is necessary to persist all the data generate by the Gogs.
-
-* Path in App: /data - Label: data-git
+None.
 
 ## Nginx configuration
-The Wekan need run with PORT numbers >= 3000, if you want to redirect the 80 port to 3000 when the user call your URL, change this line `set $upstream http://<%-s.localDomain%>;` to `set $upstream http://<%-s.localDomain%>:3000;` inside the Nginx configuration file.
-
-## First configuration
-I recommend configure to use SQLite database.
+None.
