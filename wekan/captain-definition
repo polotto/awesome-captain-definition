@@ -1,0 +1,15 @@
+{
+	"schemaVersion" :1 ,
+	"dockerfileLines" :[
+		"FROM mquandalle/wekan",
+		"ENV ROOT_URL http://localhost",
+		"ENV PORT 3000",
+		"ENV MONGO_URL mongodb://localhost/wekan",
+		"ENV MAIL_URL smtp://user:password@server:25/",
+		"ENV MAIL_FROM Wekan Team <support@wekan.com>",
+		"ENV WITH_API true",
+		"ENV BROWSER_POLICY_ENABLED true",
+		"ENV TRUSTED_URL ''",
+		"EXPOSE 25 3000 27017"
+	]
+}
