@@ -12,7 +12,7 @@ All that volumes need be configurated in the Captatain Duck Duck web interface. 
 * Path in App: /data - Label: data-git
 
 ## Nginx configuration
-The Gogs need run with PORT numbers >= 3000, if you want to redirect the 80 port to 3000 when the user call your URL, change this line `set $upstream http://<%-s.localDomain%>;` to `set $upstream http://<%-s.localDomain%>:3000;` inside the Nginx configuration file.
+The Gogs need run in the PORT 3000, if you want to redirect the 80 port to 3000 when the user call your URL, change this line `set $upstream http://<%-s.localDomain%>;` to `set $upstream http://<%-s.localDomain%>:3000;` inside the Nginx configuration file.
 
 ## First configuration
-I recommend configure to use SQLite database.
+I recommend configure to use SQLite database. That avoid you create a new app for the database server.
