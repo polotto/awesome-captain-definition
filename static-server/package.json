@@ -1,0 +1,19 @@
+{
+  "name": "juliano",
+  "version": "1.0.0",
+  "description": "portfólio juliano polotto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.app.polotto.cloud/polotto/juliano.git"
+  },
+  "author": "Angelo Polotto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

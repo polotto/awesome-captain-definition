@@ -10,6 +10,7 @@ Each application has your own folder with: captain-defition file and some test f
 * [Python Flask API Restful](python/) - A example how to run a flask app inside the CDD. Project offical [website](http://flask.pocoo.org/) ;
 * [Wekan](wekan/) - Open source kanban board. Project official [website](https://wekan.github.io/) ;
 * [Java Spring Boot .jar file](java/) - A example how to run a .jar file generante by the Spring Boot. Project official [website]( https://spring.io/guides/gs/spring-boot/) .
+* [Web server for static files with Express.js](static-server/) - A simple app to serve static files for some web site.
 
 ## Upcoming
 * Strapi
