@@ -1,5 +1,5 @@
 # awesome-captain-definition
-Some captain-definition files for the CaptainDuckDuck (https://captainduckduck.com/) that can be useful to other developers.
+Some captain-definition files for the CapRover (https://caprover.com/) that can be useful to other developers.
 
 ## Organization
 Each application has your own folder with: captain-defition file and some test files. The instructions are in the README.md.
