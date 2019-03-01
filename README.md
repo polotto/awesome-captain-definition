@@ -11,7 +11,7 @@ Each application has your own folder with: captain-defition file and some test f
 * [Wekan](wekan/) - Open source kanban board. Project official [website](https://wekan.github.io/) ;
 * [Java Spring Boot .jar file](java/) - A example how to run a .jar file generante by the Spring Boot. Project official [website]( https://spring.io/guides/gs/spring-boot/) .
 * [Web server for static files with Express.js](static-server/) - A simple app to serve static files for some web site.
-* [JSON Server](static-server/) - Get a full fake REST API with zero coding in less than 30 seconds. Project official [website]( https://github.com/typicode/json-server) .
+* [JSON Server](json-server/) - Get a full fake REST API with zero coding in less than 30 seconds. Project official [website]( https://github.com/typicode/json-server) .
 
 ## Upcoming
 * Strapi
