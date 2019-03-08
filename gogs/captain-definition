@@ -1,5 +1,5 @@
 {
-	"schemaVersion" :1 ,
+	"schemaVersion" : 2 ,
 	"dockerfileLines" : [
 		"FROM gogs/gogs",
 		"EXPOSE 22 3000"
